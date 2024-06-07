@@ -1,0 +1,964 @@
+@media screen and (max-width: 390px),
+       screen and (max-height: 844px) {
+            
+    html, body {
+        overflow-x: hidden; 
+    }
+    .wave1 {
+        position: absolute;
+        width: 60rem;
+        z-index: 1px;
+        overflow-x: hidden;
+    }
+   
+    .hero {
+        display: block;
+    }
+    #DIV {
+        position: fixed;
+        margin-top: 10px;
+        width: 100%;
+        height: 700px;
+        overflow-x: hidden;
+        z-index: 2;
+    } 
+    #LOGO_NAME {
+        left: 1vw;
+        top: 2px;
+    }
+    #T {
+        top: -2.4vh;
+        left: 7.2vw;
+        width: 25px;
+    }
+    #UCKY {
+        font: 20px Ethnocentric, sans-serif;
+    }
+
+    .BURGER_MENU  {
+        display: flex;
+        position: relative;
+        left: 1vw;
+        top: -20px;
+
+    }
+    br,
+    .PERSON,
+    .SHOPPING_CART,
+    .Product_mainpage,
+    #MOUSE_MAINPAGE,
+    #KEYBOARD_MAINPAGE,
+    #KEYCAPS_MAINPAGE,
+    #info_NAVINFO,
+    .LINE_BURGER_MENU,
+    .WHOLEBRANDS {
+        display: none;
+    }
+   
+    .SQUAREWHENCLICK {
+        display: none;
+        position: absolute;
+        width: 390px;
+        height: 580px;
+        left: -20rem;
+        top: 6vh;
+        overflow: hidden;
+        border-radius:  10px 0px 0px 10px;
+        padding: 20px 10px 10px 10px;
+        background-color: #3282b8b7;
+        animation: 1s slide-left;
+        transition-delay: 400ms;
+    }
+    #HOME_MAINPAGE,
+    #ORDERS_MAINPAGE,
+    #ACCOUNT_MAINPAGE {
+        display: block;
+        text-align: end;
+    }
+    .INFO_BURGER {
+        left: 5%;
+        top: 1%;
+        width: 100%;
+        height: 580px;
+    }
+    
+    .NAVMENU,
+    .NAVINFO {
+        position: absolute;
+        width: 100%;
+        display: flex; 
+        flex-direction: column;
+    }
+    
+    .NAVMENU {
+        top: 2vh;
+        left: 10vw;
+        gap: 10px;
+    }
+    
+    .NAVINFO {
+        height: 80%;
+        top: 43vh;
+        left: 27vw;
+        gap: 5px; 
+    }
+    .NAVINFO a {
+        margin: 4%;
+        text-align: end;
+    }
+    
+    .NAVMENU a,
+    .NAVINFO a {
+        margin: 1%;
+        padding: 10px;
+        font: 20px Poppins, sans-serif;
+        width: 250px;
+        border: #ececec solid 1px;
+        border-radius: 10px;
+        box-shadow: -1px 6px 1px -1px rgba(0, 0, 0, 0.38);
+        letter-spacing: 1.5px;
+        text-decoration: none;
+    }
+
+    #RK61 {
+        position: relative;
+        margin-top: -20vh;
+        margin-left: -10vw;
+        font: 30px ethnocentric, sans-serif;
+        letter-spacing: 10px;
+    }
+    #Limited_Edition {
+        position: relative;
+        margin-top: -5vh;
+        margin-left: -37vw;
+        font: 30px ethnocentric, sans-serif;
+    }
+    #WALLAPAPER_BACKGROUND {
+        position: absolute;
+        max-width: 480px;
+        max-height: 350px;
+        left: -1.5%;
+        top: 18%;
+    }
+    .SHOPBUTTON {
+        left: -12%;
+        top: 40%;
+    }
+    #SHOPBUTTON {
+        width: 220px;
+        height: 60px;
+        font: 18px Ethnocentric, sans-serif;
+    }
+
+    /*SECOND PAGE "SHOP BY CATEGORY"*/
+    #Shop_by_Category {
+        position: absolute;
+        font: 20px ethnocentric, sans-serif;
+        left: 15%;
+        margin-top: 9%;
+        z-index: 1;
+    }
+    #COSTOM_MADE {
+        width: 390px;
+        height: 280px;
+        top: 98%;
+        left: 0;
+    }
+    #title {
+        font: 20px ethnocentric, sans-serif;
+        left: 5%;
+        top: 100%;
+    }
+    #Line1 {
+        width: 250px;
+        left: 5%;
+        top: 104%;
+    }
+    .pictureoverflow1,
+    .pictureoverflow2,
+    .pictureoverflow3 {
+        display: none;
+    }
+    .Costom_KEYBOARD {
+        left: 0;
+        top: 124.8vh;
+        width: 391px;
+        height: 280px;
+        background-image: url("../IMAGES/MAINPAGE_IMAGES/CUSTOMKEYCAPS.jpg");
+        background-size: cover;
+        background-size: 100% 100%;
+        border: none;
+    }
+    #Info1_CostomKeyboard {
+        font: 18px Poppins, sans-serif;
+        left: 30%;
+        top: 17vh;
+        color: white;
+        font-weight: 800;
+    }
+    #Line2 {
+        left: 34%;
+        top: 20vh;
+        border: 3px solid #ffffff;
+        border-radius: 5px;
+    }
+    #Info2_CostomKeyboard {
+        font: 13px Poppins, sans-serif;
+        left: 25%;
+        top: 23vh;
+        color: white;
+    }
+    .Costom_Keycaps {
+        position: absolute;
+        left: -0.2px;
+        top: 162.3vh;
+        width: 391px;
+        height: 280px;
+        background-image: url("/IMAGES//MAINPAGE_IMAGES/CATEGORY\(COSTOM_KEYBOARD\).jpg");
+        background-size: cover;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        border: none;
+    }
+    #Info1_CostomKeycaps {
+        font: 18px Poppins, sans-serif;
+        left: 30%;
+        top: 15vh;
+        color: white;
+        font-weight: 800;
+    }
+    #Line3 {
+        left: 34%;
+        top: 18vh;
+        border: 3px solid #ffffff;
+        border-radius: 5px;
+    }
+    #Info2_CostomKeycaps {
+        font: 13px Poppins, sans-serif;
+        left: 25%;
+        top: 22vh;
+        color: white;
+    }
+    .Costom_Switches {
+        left: 0.2px;
+        top: 199.8vh;
+        width: 391px;
+        height: 280px;
+        background-image: url("/IMAGES/MAINPAGE_IMAGES/CUSTOMSWITCHES.jpg");
+        background-size: cover;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        border: none;
+    }
+    #Info1_CostomSwitches {
+        font: 18px Poppins, sans-serif;
+        left: 30%;
+        top: 16vh;
+        color: white;
+        font-weight: 800;
+    }
+    #Line4 {
+        left: 34%;
+        top: 19vh;
+        border: 3px solid #ffffff;
+        border-radius: 5px;
+    }
+    #Info2_CostomSwitches {
+        font: 13px Poppins, sans-serif;
+        left: 25%;
+        top: 23vh;
+        color: white;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* KEYBOARD SHOP PART*/
+       
+    .bg_keyboard {
+        position: absolute;
+        width: 100vw; 
+        height: 150vh; 
+        object-fit: cover;
+        object-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+  
+   .DIV_keyboard {
+    position: fixed;
+    margin-top: 10px;
+    width: 390px;
+    height: 700px;
+    z-index: 2;
+   } 
+  
+  
+
+   #LOGO_NAME_keyboard {
+    left: -139rem;
+    top: -7vh;
+   }
+   #T_keyboard {
+    top: -10px;
+    left: 2.5rem;
+    width: 25px;
+   }
+   #UCKY_keyboard {
+    font: 20px Ethnocentric, sans-serif;
+   }
+   .BURGER_MENU_keyboard  {
+    display: flex;
+    position: absolute;
+    left: -118.5rem;
+    top: -20px;
+    
+   }
+   
+   #KEYBOARDBRANDS {
+    display: flex;
+    position: absolute;
+    height: 200px;
+    font: 20px Ethnocentric, sans-serif;
+    left: 19%; 
+    top: 3%;
+}
+
+
+.BRANDS_SLIDE {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    top: 18vh;
+    
+}
+.LATEST_TEXT {
+    display: block;
+    position: absolute;
+    width: 27%;
+    height: 5%;
+    top: 26vh;
+    left: 4%;
+    color: #ececec;
+}
+
+
+
+/*NEED TO FINISH ASAP*/
+/* STORE CONTAINER FOR STORE 1 to 3*/
+.LATEST-CONTAINER {
+    display: flex;
+    position: absolute;
+    overflow-x: auto;
+    align-items: center;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    height: 370px;
+    top: 31vh;
+    z-index: 2;
+    
+}
+.LATEST-CONTAINER::-webkit-scrollbar {
+display: none;
+}
+
+
+.STORE1, .STORE2, .STORE3 {
+    width:  265px;  
+}
+
+/*STORE1*/
+.STORE1 {
+    display: flex;
+    position: absolute;
+    left: 13px;
+    height: 351px;
+    top: 18vh;
+
+}
+.IMAGE_STORE1 {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 2rem;
+    left: 1.8rem;
+}
+.IMAGE_STORE1 img {
+    width: 209px;
+    height: 167px;
+    border-radius: 20px;
+}
+.PRICE_KEYBOARD  {
+    display: flex;
+    position: absolute;
+    top: 60%;
+    margin-left: 34px;
+}
+#PRICE_KEYBOARD {
+    letter-spacing: 3px;
+    font: 15px Poppins, sans-serif;
+    font-weight: 500;
+}
+/*UNDER IMAGE*/
+.INFO1 {
+display: flex;
+position: absolute;
+top: 55%;
+left: 57.2%;
+transform: scale(0.5);
+
+}
+.INFO1 a {
+width: 30x;
+height: 50px;
+color: #000000;
+text-decoration: none;
+margin: 5px;
+}
+/*RATING STARTS SECTION*/
+.RATINGSTARS {
+display: flex;
+position: absolute;
+align-items: center;
+left: auto;
+top: 66%;
+cursor: pointer;
+transform: scale(0.7);
+}
+.RATINGSTARS i {
+margin: 5px;
+}
+/*COLOR SWITCHES*/
+.COLORSWITCH {
+    display: flex;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    
+}
+.COLORSWITCH a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 60px;
+    font: 9px Poppins, sans-serif;
+    font-weight: bolder;
+    border: 2px solid #F10000;
+    border-radius: 5px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+#YELLOW1 {
+    border-color: brown;
+    cursor: pointer;
+}
+#BLUE1 {
+    border-color: #002CD9;
+    cursor: pointer;
+}
+  
+
+/*STORE2*/
+.STORE2 {
+    display: flex;
+    position: absolute;
+    left: 19rem;
+    height: 351px;
+    top: 18vh;
+
+}
+.IMAGE_STORE2 {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 2rem;
+    left: 1.8rem;
+}
+.IMAGE_STORE2 img {
+    width: 209px;
+    height: 167px;
+    border-radius: 20px;
+}
+.PRICE_KEYBOARD2  {
+    display: flex;
+    position: absolute;
+    top: 60%;
+    margin-left: 34px;
+}
+#PRICE_KEYBOARD2 {
+    letter-spacing: 3px;
+    font: 15px Poppins, sans-serif;
+    font-weight: 500;
+}
+/*UNDER IMAGE*/
+.INFO2 {
+display: flex;
+position: absolute;
+top: 55%;
+left: 57.2%;
+transform: scale(0.5);
+
+}
+.INFO2 a {
+width: 30x;
+height: 50px;
+color: #000000;
+text-decoration: none;
+margin: 5px;
+}
+/*RATING STARTS SECTION*/
+.RATINGSTARS2 {
+display: flex;
+position: absolute;
+align-items: center;
+left: auto;
+top: 66%;
+cursor: pointer;
+transform: scale(0.7);
+}
+.RATINGSTARS2 i {
+margin: 5px;
+}
+/*COLOR SWITCHES*/
+.COLORSWITCH2 {
+    display: flex;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    
+}
+.COLORSWITCH2 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 60px;
+    font: 9px Poppins, sans-serif;
+    font-weight: bolder;
+    border: 2px solid #F10000;
+    border-radius: 5px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+#YELLOW2 {
+    border-color: brown;
+    cursor: pointer;
+}
+#BLUE2 {
+    border-color: #002CD9;
+    cursor: pointer;
+}
+
+
+/*STORE 3*/
+.STORE3 {
+    display: flex;
+    position: absolute;
+    left: 37.5rem;
+    height: 351px;
+    top: 18vh;
+
+}
+.IMAGE_STORE3 {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 2rem;
+    left: 1.8rem;
+}
+.IMAGE_STORE3 img {
+    width: 209px;
+    height: 167px;
+    border-radius: 20px;
+}
+.PRICE_KEYBOARD3  {
+    display: flex;
+    position: absolute;
+    top: 60%;
+    margin-left: 34px;
+}
+#PRICE_KEYBOARD3 {
+    letter-spacing: 3px;
+    font: 15px Poppins, sans-serif;
+    font-weight: 500;
+}
+/*UNDER IMAGE*/
+.INFO3 {
+display: flex;
+position: absolute;
+top: 55%;
+left: 57.2%;
+transform: scale(0.5);
+
+}
+.INFO3 a {
+width: 30x;
+height: 50px;
+color: #000000;
+text-decoration: none;
+margin: 5px;
+}
+/*RATING STARTS SECTION*/
+.RATINGSTARS3 {
+display: flex;
+position: absolute;
+align-items: center;
+left: auto;
+top: 66%;
+cursor: pointer;
+transform: scale(0.7);
+}
+.RATINGSTARS3 i {
+margin: 5px;
+}
+/*COLOR SWITCHES*/
+.COLORSWITCH3 {
+    display: flex;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    
+}
+.COLORSWITCH3 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 60px;
+    font: 9px Poppins, sans-serif;
+    font-weight: bolder;
+    border: 2px solid #F10000;
+    border-radius: 5px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+#YELLOW3 {
+    border-color: brown;
+    cursor: pointer;
+}
+#BLUE3 {
+    border-color: #002CD9;
+    cursor: pointer;
+}
+  
+/*CUSTOM TEXT*/
+.CUSTOM_TEXT {
+    display: block;
+    position: absolute;
+    top: 82vh;
+    left: 4%;
+    color: #ececec;
+}
+
+.LATEST-CONTAINER1 {
+    display: flex;
+    position: absolute;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    height: 370px;
+    top: 87vh;
+    z-index: 2;
+}
+.LATEST-CONTAINER1::-webkit-scrollbar {
+display: none;
+}
+.STORE4, .STORE5, .STORE6 {
+    width:  265px;  
+   
+}
+ /*STORE 4*/
+ .STORE4 {
+    display: flex;
+    position: absolute;
+    left: 13px;
+    height: 351px;
+    top: auto;
+
+}
+.IMAGE_STORE4 {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 2rem;
+    left: 1.8rem;
+}
+.IMAGE_STORE4 img {
+    width: 209px;
+    height: 167px;
+    border-radius: 20px;
+}
+.PRICE_KEYBOARD4  {
+    display: flex;
+    position: absolute;
+    top: 60%;
+    margin-left: 34px;
+}
+#PRICE_KEYBOARD4 {
+    letter-spacing: 3px;
+    font: 15px Poppins, sans-serif;
+    font-weight: 500;
+}
+/*UNDER IMAGE*/
+.INFO4 {
+display: flex;
+position: absolute;
+top: 55%;
+left: 57.2%;
+transform: scale(0.5);
+
+}
+.INFO4 a {
+width: 30x;
+height: 50px;
+color: #000000;
+text-decoration: none;
+margin: 5px;
+}
+/*RATING STARTS SECTION*/
+.RATINGSTARS4 {
+display: flex;
+position: absolute;
+align-items: center;
+left: auto;
+top: 66%;
+cursor: pointer;
+transform: scale(0.7);
+}
+.RATINGSTARS4 i {
+margin: 5px;
+}
+/*COLOR SWITCHES*/
+.COLORSWITCH4 {
+    display: flex;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    
+}
+.COLORSWITCH4 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 60px;
+    font: 9px Poppins, sans-serif;
+    font-weight: bolder;
+    border: 2px solid #F10000;
+    border-radius: 5px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+#YELLOW4 {
+    border-color: brown;
+    cursor: pointer;
+}
+#BLUE4 {
+    border-color: #002CD9;
+    cursor: pointer;
+}
+  
+
+/*STORE5*/
+.STORE5 {
+    display: flex;
+    position: absolute;
+    left: 19rem;
+    height: 351px;
+    top: auto;
+
+}
+.IMAGE_STORE5 {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 2rem;
+    left: 1.8rem;
+}
+.IMAGE_STORE5 img {
+    width: 209px;
+    height: 167px;
+    border-radius: 20px;
+}
+.PRICE_KEYBOARD5  {
+    display: flex;
+    position: absolute;
+    top: 60%;
+    margin-left: 34px;
+}
+#PRICE_KEYBOARD5 {
+    letter-spacing: 3px;
+    font: 15px Poppins, sans-serif;
+    font-weight: 500;
+}
+/*UNDER IMAGE*/
+.INFO5 {
+display: flex;
+position: absolute;
+top: 55%;
+left: 57.2%;
+transform: scale(0.5);
+
+}
+.INFO5 a {
+width: 30x;
+height: 50px;
+color: #000000;
+text-decoration: none;
+margin: 5px;
+}
+/*RATING STARTS SECTION*/
+.RATINGSTARS5 {
+display: flex;
+position: absolute;
+align-items: center;
+left: auto;
+top: 66%;
+cursor: pointer;
+transform: scale(0.7);
+}
+.RATINGSTARS5 i {
+margin: 5px;
+}
+/*COLOR SWITCHES*/
+.COLORSWITCH5 {
+    display: flex;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    
+}
+.COLORSWITCH5 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 60px;
+    font: 9px Poppins, sans-serif;
+    font-weight: bolder;
+    border: 2px solid #F10000;
+    border-radius: 5px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+#YELLOW5 {
+    border-color: brown;
+    cursor: pointer;
+}
+#BLUE5 {
+    border-color: #002CD9;
+    cursor: pointer;
+}
+
+
+/*STORE 6*/
+.STORE6 {
+    display: flex;
+    position: absolute;
+    left: 37.5rem;
+    height: 351px;
+    top: auto;
+
+}
+.IMAGE_STORE6 {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 2rem;
+    left: 1.8rem;
+}
+.IMAGE_STORE6 img {
+    width: 209px;
+    height: 167px;
+    border-radius: 20px;
+}
+.PRICE_KEYBOARD6  {
+    display: flex;
+    position: absolute;
+    top: 60%;
+    margin-left: 34px;
+}
+#PRICE_KEYBOARD6 {
+    letter-spacing: 3px;
+    font: 15px Poppins, sans-serif;
+    font-weight: 500;
+}
+/*UNDER IMAGE*/
+.INFO6 {
+display: flex;
+position: absolute;
+top: 55%;
+left: 57.2%;
+transform: scale(0.5);
+
+}
+.INFO6 a {
+width: 30x;
+height: 50px;
+color: #000000;
+text-decoration: none;
+margin: 5px;
+}
+/*RATING STARTS SECTION*/
+.RATINGSTARS6 {
+display: flex;
+position: absolute;
+align-items: center;
+left: auto;
+top: 66%;
+cursor: pointer;
+transform: scale(0.7);
+}
+.RATINGSTARS6 i {
+margin: 5px;
+}
+/*COLOR SWITCHES*/
+.COLORSWITCH6 {
+    display: flex;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    
+}
+.COLORSWITCH6 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 60px;
+    font: 9px Poppins, sans-serif;
+    font-weight: bolder;
+    border: 2px solid #F10000;
+    border-radius: 5px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+#YELLOW6 {
+    border-color: brown;
+    cursor: pointer;
+}
+#BLUE6 {
+    border-color: #002CD9;
+    cursor: pointer;
+}
+#LOGO_NAME_login {
+   left: -570vw;
+   top: -7.5vh;
+   
+}
+
+}

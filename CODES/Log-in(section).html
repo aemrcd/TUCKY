@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" type="image/x-icon" href="../IMAGES/logoV1.svg">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+      <link rel="stylesheet" href="https://use.typekit.net/eka7nti.css">
+      <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="Mainpage.css" />
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+      <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="IPHONE13.css" />
+    
+
+      <title>Login!</title>
+   </head>
+   <style>
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+:root {
+
+  --white-color: hsl(0, 0%, 100%);
+  --black-color: hsl(0, 0%, 0%);
+  --body-font: "Poppins", sans-serif;
+  --h1-font-size: 2rem;
+  --normal-font-size: 1rem;
+  --small-font-size: .813rem;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  
+}
+
+body,
+input,
+button {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+.bg_keyboard {
+        position: absolute;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        background-size: contain;
+    }
+
+a {
+  text-decoration: none;
+}
+#LOGO_NAME_login {
+  position: absolute;
+  width: 239px;
+  height: 108px;
+  left: -82vw;
+
+}
+
+
+.login {
+  position: relative;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+}
+.login__form {
+  position: relative;
+  margin-inline: 1.5rem;
+  background-color: hsla(0, 0%, 100%, .01);
+  border: 5px solid hsla(0, 0%, 100%, .7);
+  padding: 2.5rem 1rem;
+  color: var(--white-color);
+  border-radius: 1rem;
+  backdrop-filter: blur(16px);
+
+  
+}
+
+.login__title {
+  text-align: center;
+  font-size: var(--h1-font-size);
+  margin-bottom: 1.25rem;
+}
+
+.login__inputs, 
+.login__box {
+  display: grid;
+}
+
+.login__inputs {
+  row-gap: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.login__box {
+  grid-template-columns: 1fr max-content;
+  column-gap: .75rem;
+  align-items: center;
+  border: 2px solid hsla(0, 0%, 100%, .7);
+  padding-inline: 1.25rem;
+  border-radius: 4rem;
+}
+
+.login__input, 
+.login__button {
+  border: none;
+  outline: none;
+}
+
+.login__input {
+  width: 100%;
+  background: none;
+  color: var(--white-color);
+  padding-block: 1rem;
+}
+
+.login__input::placeholder {
+  color: var(--white-color);
+}
+
+.login__box i {
+  font-size: 1.25rem;
+}
+
+.login__check, 
+.login__check-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login__check {
+  margin-bottom: 1rem;
+  font-size: var(--small-font-size);
+}
+
+.login__check-box {
+  column-gap: .5rem;
+}
+
+.login__check-input {
+  width: 1rem;
+  height: 1rem;
+  accent-color: var(--white-color);
+}
+
+.login__forgot {
+  color: var(--white-color);
+}
+
+.login__forgot:hover {
+  text-decoration: underline;
+}
+
+.login__button {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: var(--white-color);
+  border-radius: 4rem;
+  color: var(--black-color);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.login__register {
+  font-size: var(--small-font-size);
+  text-align: center;
+}
+
+.login__register a {
+  color: var(--white-color);
+  font-weight: 500;
+}
+
+.login__register a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 376px) {
+  .login {
+    justify-content: center;
+  }
+  .login__form {
+    width: 330px;
+    padding-inline: 1.5rem;
+  }
+  .login__title {
+    margin-bottom: 2rem;
+  }
+
+
+
+}
+
+   </style>
+   <body>
+    <img src="../IMAGES/PRODUCTS_SECTION/bg_keyboard.jpg" class="bg_keyboard">
+  
+    <div id="DIV_keyboard" class="DIV_keyboard">
+      
+      
+      <div class="signs_keyboard">
+          <div class="PERSON_keyboard">
+              <a href="Log-in(section).html" class='bx bx-user bx-lg'> </a>
+          </div>
+          <div class="SHOPPING_CART_keyboard">
+              <a href="MAINPAGE2.html" class='bx bx-cart bx-lg'></a>
+          </div>
+
+          <div class="BURGER_MENU_keyboard" >
+              <a id="BURGER_MENU_keyboard" class='bx bx-menu-alt-right bx-md' onclick="burger1()"></a>
+          <div class="BURGER_CLOSE_keyboard">
+              <a id="BURGER_CLOSE_keyboard" class='bx bx-x bx-lg' onclick="burger1()"></a>
+
+
+              <div class="SQUAREWHENCLICK_keyboard" id="SQUAREWHENCLICK_keyboard">
+                <div class="INFO_BURGER"> 
+                    <br>
+                    <br>
+                    <br>
+
+                    <div class="NAVMENU">
+                        
+                        <a href="MAINPAGE.html" id="HOME_MAINPAGE">Home <i class='bx bx-home-heart bx-sm' style="margin-bottom: -6px; "></i></a>
+                        <a href="KEYBOARDSHOP.html" id="ORDERS_MAINPAGE" >Orders <i class='bx bx-cart bx-sm' style="margin-bottom: -6px;" ></i></i></a>
+                        <a href="Log-in(section).html" id="ACCOUNT_MAINPAGE">Account <i class='bx bx-user bx-sm' style="margin-bottom: -6px;"></i></a>
+                        <a href="MAINPAGE.html" id="MOUSE_MAINPAGE" > MOUSE <i class='bx bx-mouse-alt bx-lg' style="margin-bottom: -6px; "></i></a>
+                        <a href="KEYBOARDSHOP.html" id="KEYBOARD_MAINPAGE"  >KEYBOARD <i class='bx bxs-keyboard bx-lg ' ></i></i></a>
+                        <a href="KEYBOARDSHOP.html" id="KEYCAPS_MAINPAGE"  >KEYCAPS <img src="../IMAGES/MAINPAGE_IMAGES/keycaps.png"></a>
+                    
+                    </div>
+
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+                    <div class="NAVINFO">
+                        <a href="#">Contact <i class='bx bx-phone-call bx-sm' style="margin-bottom: -7px;"></i></a>
+                        <a href="#">About Us <i class='bx bx-info-circle bx-sm' style="margin-bottom: -7px;"></i></a>
+                        <a href="#">Support <i class='bx bx-support bx-sm' style="margin-bottom: -7px; margin-left: 10px;"></i></a>
+                        <a href="#" id="info_NAVINFO">Info <i class='bx bx-info-circle bx-sm' style="margin-bottom: -7px; margin-left: 10px;"></i></a>
+                    </div>
+            </div>
+
+          </div>
+          </div>
+      </div>
+      <div id="Products_keyboard">
+          <a href="MAINPAGE.html">Home</a>
+      </div>
+
+      <div id="LOGO_NAME_login">
+
+          <div id="UCKY_keyboard">
+              <p>UCKY</p>
+          </div>
+
+          <div id="T_keyboard">
+              <img src="../IMAGES/logoV1.svg">
+          </div>
+
+      </div>
+
+  
+  </div>
+</div>
+    
+      <div class="login">
+        
+
+         <form  class="login__form">
+            <h1 class="login__title" >Login</h1>
+
+            <div class="login__inputs">
+               <div class="login__box">
+                  <input type="email" placeholder="Email ID" required class="login__input">
+                  <i class="ri-mail-fill"></i>
+               </div>
+
+               <div class="login__box">
+                  <input type="password" placeholder="Password" required class="login__input">
+                  <i class="ri-lock-2-fill"></i>
+               </div>
+            </div>
+
+            <div class="login__check">
+               <div class="login__check-box">
+                  <input type="checkbox" class="login__check-input" id="user-check">
+                  <label for="user-check" class="login__check-label">Remember me</label>
+               </div>
+
+               <a href="MAINPAGE.html" class="login__forgot">Forgot Password?</a>
+            </div>
+
+            <button href="MAINPAGE.html" type="submit" class="login__button">Login</button>
+
+            <div class="login__register">
+               Don't have an account? <a href="MAINPAGE.html">Register</a>
+            </div>
+         </form>
+      </div>
+      <script src="MAIN.js"></script>
+   </body>
+</html>
