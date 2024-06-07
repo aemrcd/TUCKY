@@ -1,1 +1,2 @@
 <h1> MAINPAGE PICTURE </h1>
+<img src="IMAGES/WEBSITEIMAGE.png">
