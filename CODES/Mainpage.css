@@ -425,7 +425,7 @@ body {
 	position: relative;
 	width: 540px;
 	height: 320px;
-	z-index: 4;
+	z-index: 3;
 }
 .Costom_Keycaps {
 	display: flex;
@@ -473,7 +473,7 @@ body {
 	overflow: hidden;
 	left: 90.0rem;
 	top: 145.9vh;
-	z-index: 4;
+	z-index: 2;
 }
 .Costom_Switches_Category {
 	display: flex;
@@ -936,6 +936,45 @@ body {
               -0.5px -0.5px 0px rgba(255,255,255,1),
               0.5px 0.5px 0px rgba(0,0,0,0.15),
               0px 12px 10px -10px rgba(0,0,0,0.05);
+}
+/*FOOTER*/
+footer {
+    position: absolute;
+    top: 170vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    z-index: 2; 
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left p {
+    margin: 5px;
+}
+
+.footer-right ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.footer-right li {
+    margin: 0 10px;
+}
+
+.footer-right a {
+    color: #fff;
+    font-size: 30px;
+}
+/* Hover effect on icons */
+.footer-right a:hover {
+    color: #BBE1FA; 
 }
 /*IPHONE 13 PRO*/
 @media screen and (max-width: 390px),
@@ -1837,10 +1876,27 @@ margin: 5px;
    top: -7.5vh;
    
 }
+footer {
+    padding: 0rem 1%;
+    top: 237.5vh;
+    left: 0;
 }
+.footer-right li {
+    margin: 10px 3px; 
+    padding: 0; 
+}
+
+.footer-right a {
+    font-size: 20px; 
+    margin: 0px; 
+    
+}
+
+
 /*ANIMATION*/
 #WALLAPAPER_BACKGROUND:hover {animation:text-pop-up-top .5s cubic-bezier(.25,.46,.45,.94) both}
 @keyframes text-pop-up-top{0%{transform:translateY(0);transform-origin:50% 50%;text-shadow:none}100%{transform:translateY(-20px);transform-origin:50% 50%;text-shadow:0 1px 0 #ccc,0 2px 0 #ccc,0 3px 0 #ccc,0 4px 0 #ccc,0 5px 0 #ccc,0 6px 0 #ccc,0 7px 0 #ccc,0 8px 0 #ccc,0 9px 0 #ccc,0 50px 30px rgba(0,0,0,.3)}}
 
 #SHOPBUTTON:hover {animation:text-pop-up-top .5s cubic-bezier(.25,.46,.45,.94) both}
 @keyframes text-pop-up-top{0%{transform:translateY(0);transform-origin:50% 50%;text-shadow:none}100%{transform:translateY(-20px);transform-origin:50% 50%;text-shadow:0 1px 0 #ccc,0 2px 0 #ccc,0 3px 0 #ccc,0 4px 0 #ccc,0 5px 0 #ccc,0 6px 0 #ccc,0 7px 0 #ccc,0 8px 0 #ccc,0 9px 0 #ccc,0 50px 30px rgba(0,0,0,.3)}}
+}
