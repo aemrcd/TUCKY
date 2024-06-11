@@ -27,7 +27,6 @@ function Scrollmobile() {
 
   if (document.documentElement.scrollTop > 155) {
     media.style.backgroundColor = "#BBE1FA";
-  
   } else {
     media.style.backgroundColor = "#3282B8";
 
@@ -443,4 +442,13 @@ function norSTOREsix() {
 
 // END KEYBOARDSHOP HOVER ANIMATION
 
-// MOBILE BURGER MENU
+// Loading Screen
+window.onload = function (){
+  document.getElementById('loading-page').className ='loading-page active';
+  setTimeout(function(){
+   document.getElementById('loading-page').style.display='none'
+  },4000)
+ }
+ 
+ 
+ 

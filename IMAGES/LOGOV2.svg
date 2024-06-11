@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 337.14 177.89">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #000;
+      }
+
+      .cls-2 {
+        font-family: EthnocentricRg-Regular, Ethnocentric;
+        font-size: 60px;
+      }
+    </style>
+  </defs>
+  <text class="cls-2" transform="translate(105.7 162.09)"><tspan x="0" y="0">UCKY</tspan></text>
+  <path class="cls-1" d="M160.78,41.56c-9.26,12.76-18.86,23.96-31.19,33.84-14.54.4-27.37-4.85-40.51-10.34-1.33,27.78-2.66,55.58-4,83.36-7.8,5.65-15.56,11.66-23.91,16.5-2.39-38.5-4.79-76.99-7.17-115.49-20.33-6.06-34.01-6.23-53.22,3.76C5.66,35.35,11.01,17.83,17.55.5,70.28.08,107.87,79.63,160.78,41.56Z"/>
+</svg>
