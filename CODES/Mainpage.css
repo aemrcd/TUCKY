@@ -1025,7 +1025,6 @@ footer {
 /*IPHONE 13 PRO*/
 @media screen and (max-width: 390px) {    
     html, body {
-        overflow-y: visible;
         overflow-x: hidden;                                                                                                    
     }
     .wave1 {
